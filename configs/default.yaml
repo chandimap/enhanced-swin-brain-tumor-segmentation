@@ -1,0 +1,18 @@
+data:
+  root_dir: /data/brats2021challenge
+  json_splits: ./brats21_folds.json
+  fold: 1
+  roi: [128, 128, 128]
+training:
+  batch_size: 2
+  sw_batch_size: 4
+  max_epochs: 100
+  val_every: 10
+  lr: 1e-4
+  weight_decay: 1e-5
+inference:
+  overlap: 0.5
+  test_case: "01619"
+output:
+  checkpoint_dir: ./runs/checkpoints
+  logs_dir: ./runs/logs

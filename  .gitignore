@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+# Virtual env
+venv/
+.env/
+
+# PyTorch
+*.pt
+*.pth
+
+# Data
+data/
+*.nii.gz
+
+# Logs / outputs
+runs/
+logs/
